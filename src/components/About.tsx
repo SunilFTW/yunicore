@@ -5,11 +5,11 @@ export default function About() {
         <div className="flex flex-col items-center">
           <span className="font-jost text-xs uppercase tracking-[0.3em] text-brass mb-8">Our Ethos</span>
           <h2 className="font-cormorant text-4xl md:text-5xl lg:text-7xl font-light leading-tight">
-          The pursuit of <span className="italic">perfect proportion.</span>
+          Experienced. <span className="italic">Accountable.</span> Founder-Led.
         </h2>
         <div className="w-full h-[1px] bg-charcoal/10 my-16 mx-auto max-w-sm" />
         <p className="font-jost text-lg md:text-xl font-light leading-loose text-charcoal/80 max-w-3xl mx-auto">
-          At Yunicore, we do not merely build structures; we curate environments. Based in Chennai, our multidisciplinary approach bridges the gap between visionary architecture and precise civil engineering. From intimate residential sanctuaries to commanding corporate hubs, every project is a masterclass in detail, materiality, and light.
+          For over 12 years, Yunicore has been a trusted design and construction partner across Tamil Nadu. We provide end-to-end solutions, bridging the gap between visionary architecture and precise civil execution. With a commitment to transparent communication and direct founder involvement, we ensure every project is delivered with absolute precision.
         </p>
         </div>
         

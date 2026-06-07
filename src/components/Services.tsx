@@ -2,23 +2,23 @@ export default function Services() {
   const services = [
     {
       title: "Interior Design",
-      desc: "Curating bespoke interiors that balance uncompromising aesthetics with tactile comfort."
+      desc: "Curating highly functional, beautiful spaces tailored to your lifestyle and comfort."
     },
     {
       title: "Architecture",
-      desc: "Designing enduring structures defined by spatial harmony and environmental context."
+      desc: "Designing structures that maximize space, light, and long-term value."
     },
     {
       title: "Civil Engineering",
-      desc: "Executing complex builds with rigorous structural integrity and technical precision."
+      desc: "Ensuring structural integrity, safety, and rigorous technical execution on every build."
     },
     {
       title: "Project Management",
-      desc: "Overseeing every phase with total transparency, from initial blueprint to final handover."
+      desc: "Delivering your project on time and within budget, with total transparency and zero headaches."
     },
     {
       title: "Renovation",
-      desc: "Transforming existing spaces into modern masterpieces while honoring their original soul."
+      desc: "Upgrading and modernizing existing properties to meet contemporary standards."
     }
   ];
 
@@ -43,6 +43,13 @@ export default function Services() {
               </p>
             </div>
           ))}
+        </div>
+
+        <div className="mt-24 flex justify-center">
+          <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" className="font-jost text-xs font-medium uppercase tracking-[0.2em] px-8 py-4 border border-[#25D366] text-[#25D366] hover:bg-[#25D366] hover:text-white transition-all duration-300 flex items-center gap-3">
+            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 0C5.383 0 0 5.383 0 12.031c0 2.124.553 4.195 1.604 6.012L.182 24l6.108-1.594A11.96 11.96 0 0012.031 24c6.648 0 12.031-5.383 12.031-12.031S18.679 0 12.031 0zm0 22.019c-1.817 0-3.593-.487-5.15-1.411l-.369-.219-3.834 1.001 1.021-3.738-.241-.383C2.535 15.626 1.981 13.863 1.981 12.031 1.981 6.477 6.477 1.981 12.031 1.981c5.554 0 10.05 4.496 10.05 10.05 0 5.554-4.496 10.05-10.05 10.05z"/></svg>
+            Discuss Your Project on WhatsApp
+          </a>
         </div>
       </div>
     </section>

@@ -21,32 +21,24 @@ export default function Hero() {
         
         {/* Overlapping Typography */}
         <div className="w-full md:w-[90%] lg:w-[85%] mt-12">
-          <h1 className="font-cormorant text-6xl md:text-[7rem] lg:text-[9rem] font-light leading-[0.85] tracking-tighter animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
-            Architectural
+          <h1 className="font-cormorant text-5xl md:text-[6rem] lg:text-[8rem] font-light leading-[0.85] tracking-tighter animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.2s' }}>
+            Design. Build.
           </h1>
-          <h1 className="font-cormorant text-6xl md:text-[7rem] lg:text-[9rem] font-light leading-[0.85] tracking-tighter animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
-            <span className="italic">Excellence.</span>
+          <h1 className="font-cormorant text-5xl md:text-[6rem] lg:text-[8rem] font-light leading-[0.85] tracking-tighter animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.4s' }}>
+            <span className="italic">Deliver.</span>
           </h1>
           
-          <div className="mt-12 md:mt-24 max-w-[400px] animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.6s' }}>
+          <div className="mt-12 md:mt-24 max-w-[500px] animate-[fade-up_1.5s_ease-out_forwards] opacity-0" style={{ animationDelay: '0.6s' }}>
             <p className="font-jost text-sm md:text-base uppercase tracking-widest leading-relaxed opacity-80 border-l border-charcoal/20 pl-4">
-              Enduring Spaces. Bespoke Living.
-            </p>
-            <p className="font-jost text-sm md:text-base font-light leading-relaxed mt-6 opacity-60 normal-case tracking-wide text-justify">
-              Mastering the art of interior design and civil engineering in Chennai. We translate vision into physical reality for homeowners, corporates, and developers.
+              Interior Design, Architecture, Construction & Renovation Services Across Tamil Nadu.
             </p>
             
-            <div className="mt-12 pointer-events-auto">
-              <a href="#portfolio" className="group flex items-center gap-5 w-fit">
-                <div className="w-12 h-12 rounded-full border border-charcoal/30 flex items-center justify-center group-hover:bg-charcoal group-hover:border-charcoal transition-all duration-500 overflow-hidden relative">
-                  <div className="absolute inset-0 bg-charcoal transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-[cubic-bezier(0.19,1,0.22,1)] z-0" />
-                  <svg className="w-4 h-4 text-charcoal group-hover:text-white transition-colors duration-500 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="square" strokeLinejoin="miter" strokeWidth={1.5} d="M12 5v14M5 12l7 7 7-7" />
-                  </svg>
-                </div>
-                <span className="font-jost text-xs uppercase tracking-[0.2em] font-medium opacity-80 group-hover:opacity-100 transition-opacity">
-                  View Portfolio
-                </span>
+            <div className="mt-12 pointer-events-auto flex flex-col sm:flex-row gap-6">
+              <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-8 py-4 uppercase tracking-[0.2em] font-jost text-xs font-medium flex items-center justify-center gap-3 transition-transform hover:-translate-y-1">
+                WhatsApp Consultation
+              </a>
+              <a href="#portfolio" className="border border-charcoal/30 text-charcoal px-8 py-4 uppercase tracking-[0.2em] font-jost text-xs font-medium flex items-center justify-center transition-colors hover:bg-charcoal hover:text-white">
+                View Projects
               </a>
             </div>
           </div>

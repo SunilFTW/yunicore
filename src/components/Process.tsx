@@ -1,18 +1,18 @@
 export default function Process() {
   const steps = [
-    { num: "01", title: "Consultation", desc: "Understanding your vision, lifestyle, and requirements to establish a clear foundation." },
-    { num: "02", title: "Concept Design", desc: "Translating ideas into architectural blueprints and 3D interior visualizations." },
-    { num: "03", title: "Civil Execution", desc: "Rigorous construction and engineering with uncompromising quality control." },
-    { num: "04", title: "Handover", desc: "Final styling and seamless transition of the completed masterpiece to you." }
+    { num: "01", title: "Consultation & Scoping", desc: "We begin with a transparent discussion to understand your vision, requirements, and budget without any commitment." },
+    { num: "02", title: "Planning & Design", desc: "Our architects and designers translate your needs into precise plans, ensuring aesthetics align perfectly with structural integrity." },
+    { num: "03", title: "Transparent Execution", desc: "Our civil engineering team executes the build with rigorous quality control, keeping you informed at every milestone." },
+    { num: "04", title: "Handover", desc: "We deliver the completed project on time and within budget, ready for you to step in and experience." }
   ];
 
   return (
-    <section className="bg-greige py-32 w-full border-t border-charcoal/5">
+    <section id="process" className="bg-charcoal py-32 w-full text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
-        <div className="flex flex-col items-center text-center mb-20">
-          <span className="font-jost text-xs uppercase tracking-[0.3em] text-brass mb-4 block">Our Methodology</span>
-          <h2 className="font-cormorant text-4xl md:text-5xl text-charcoal font-light">
-            The Yunicore <span className="italic text-brass">Process</span>
+        <div className="text-center mb-24">
+          <span className="font-jost text-xs uppercase tracking-[0.2em] text-brass mb-4 block">Predictable Execution</span>
+          <h2 className="font-cormorant text-5xl md:text-7xl font-light">
+            Our <span className="italic">Process.</span>
           </h2>
         </div>
 

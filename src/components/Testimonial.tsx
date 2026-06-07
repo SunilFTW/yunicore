@@ -1,14 +1,14 @@
 export default function Testimonial() {
   const testimonials = [
     {
-      quote: "Yunicore didn't just build our headquarters; they translated our corporate identity into a physical space. Their civil engineering precision and architectural vision are unmatched in Chennai.",
-      name: "[Client Name]",
-      title: "CEO, [Company Name]"
+      quote: "Yunicore didn't just build our house; they managed the entire process flawlessly from design to handover. The founder's direct involvement gave us immense peace of mind.",
+      name: "Arun & Priya",
+      title: "Residential Construction, ECR Chennai"
     },
     {
-      quote: "From the initial concept sketches to the final handover, the level of transparency and bespoke luxury they brought to our home was extraordinary.",
-      name: "[Client Name]",
-      title: "Homeowner, [Location]"
+      quote: "Their execution on our corporate office was precise and transparent. No hidden costs, completed on schedule, and the quality of finishes is exceptional.",
+      name: "Vikram R.",
+      title: "Commercial Fit-out, OMR"
     }
   ];
 
